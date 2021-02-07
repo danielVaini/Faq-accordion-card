@@ -1,0 +1,21 @@
+@for $i from 1 through 6 {
+  .faq-#{$i} {
+    width: 400px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: justify;
+
+    button {
+      display: flex;
+
+      align-items: center;
+      justify-content: space-between;
+
+      
+    }
+
+  }
+}
