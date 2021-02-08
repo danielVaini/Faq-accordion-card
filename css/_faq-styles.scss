@@ -8,14 +8,48 @@
 
     text-align: justify;
 
+    margin-right: 80px;
+    margin-top: 10px;
+
+    border-bottom: 1px solid black;
+
     button {
+
+      height: 40px;
+
       display: flex;
 
       align-items: center;
       justify-content: space-between;
 
+      outline: none;
+      border: none;
+      background-color: white;
+      
+
       
     }
 
+  }
+}
+
+
+.faq-section {
+  background: url(../images/bg-pattern-desktop.svg) left center fixed;
+  background-repeat: no-repeat;
+  background-size: 600px;
+}
+
+.faq-1 {
+  h1 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+}
+
+@for $i from 1 through 6 {
+  .option-faq-#{$i} {
+    color: hsl(240, 6%, 50%);
+    display: none;
   }
 }
