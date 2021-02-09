@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const img = document.querySelectorAll('.icon');
+
 
 
   document.querySelectorAll(`dt`).forEach(item => {
@@ -22,18 +24,27 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function EnableList(list) {
-    list.nextElementSibling.classList.remove('list-description')
+  
     list.nextElementSibling.classList.add('list-description--selected')
-    list.classList.add('list-word-selected')
-    console.log(list.nextElementSibling)
+
+    list.classList.add('list-word--selected')
+    list.children[0].classList.add('icon-active');
+    
+    console.log(list.children[0])
+    
   }
   
   function DisableList(list) {
-    list.classList.remove('list-word-selected')
-    list.nextElementSibling.classList.add('list-description')
+    list.classList.remove('list-word--selected')
+    // list.classList.add('list-word')
+    list.children[0].classList.remove('icon-active');
+    
+    // list.nextElementSibling.classList.add('list-description')
     list.nextElementSibling.classList.remove('list-description--selected')
 
   }
+
+  
 
 
 
