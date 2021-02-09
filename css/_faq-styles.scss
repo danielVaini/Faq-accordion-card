@@ -1,55 +1,47 @@
-@for $i from 1 through 6 {
-  .faq-#{$i} {
-    width: 400px;
-
-    display: flex;
-
-    flex-direction: column;
-
-    text-align: justify;
-
-    margin-right: 80px;
-    margin-top: 10px;
-
-    border-bottom: 1px solid black;
-
-    button {
-
-      height: 40px;
-
-      display: flex;
-
-      align-items: center;
-      justify-content: space-between;
-
-      outline: none;
-      border: none;
-      background-color: white;
-      
-
-      
-    }
-
-  }
-}
-
-
 .faq-section {
   background: url(../images/bg-pattern-desktop.svg) left center fixed;
   background-repeat: no-repeat;
   background-size: 600px;
 }
 
-.faq-1 {
-  h1 {
-    margin-top: 10px;
-    margin-bottom: 40px;
-  }
-}
+.list {
+  width: 400px;
 
-@for $i from 1 through 6 {
-  .option-faq-#{$i} {
-    color: hsl(240, 6%, 50%);
+  position: relative;
+
+  right: 100px;
+  top: 100px;
+
+  cursor: pointer;
+
+  .list-word {
+    margin: 10px 0px;
+    color: gray;
+  }
+
+  .list-description {
     display: none;
   }
 }
+
+.list-word--selected {
+  color: black;
+  font-weight: 700;
+}
+
+
+.list-description--selected {
+  position: relative;
+
+  width: 400px;
+  
+  margin-left: 20px;
+  text-align: justify;
+
+  top: 0px;
+
+  display: block;
+}
+
+
+
