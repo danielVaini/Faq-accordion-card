@@ -8,15 +8,19 @@ body { width: 100vw; height: 100vh; background: -webkit-gradient(linear, left to
 
 .faq-section { background: url(../images/bg-pattern-desktop.svg) left center fixed; background-repeat: no-repeat; background-size: 600px; }
 
-.list { width: 400px; position: relative; right: 100px; top: 100px; cursor: pointer; }
+.list { width: 400px; height: 300px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: left; -ms-flex-align: left; align-items: left; -ms-flex-pack: distribute; justify-content: space-around; position: relative; right: 50px; top: 150px; cursor: pointer; }
 
-.list .list-word { margin: 10px 0px; color: gray; }
+.list .list-word { margin: 10px 0px; color: gray; border-bottom: 1px solid black; border-bottom-right-radius: 15px; margin-bottom: 30px; padding-bottom: 15px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
-.list .list-description { display: none; }
+.list .list-description { display: none; margin: 10px 0; }
 
-.list-word--selected { color: black; font-weight: 700; }
+.list .list-word--selected { margin: 10px 0px; color: black; font-weight: 700; }
 
-.list-description--selected { position: relative; width: 400px; margin-left: 20px; text-align: justify; top: 0px; display: block; }
+.list .list-description--selected { position: relative; width: 350px; margin-left: 10px; margin-top: 10px; text-align: justify; display: block; }
 
 .faq-section { width: 80%; height: 75%; background-color: white; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; border-radius: 15px; }
+
+.icon { display: block; width: 1rem; height: 1rem; background: url(../images/icon-arrow-down.svg) no-repeat; position: relative; top: 5px; right: 10px; }
+
+.icon-active { -webkit-transform: rotate(180deg); transform: rotate(180deg); }
 /*# sourceMappingURL=main.css.map */
