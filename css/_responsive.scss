@@ -1,0 +1,64 @@
+@media (max-width: 1200px){
+  .faq-section {
+    background-size: 500px, 500px;
+  }
+}
+
+@media (max-width: 1070px){
+  .faq-section {
+    background-size: 400px, 0px;
+  }
+  
+  .container {
+    img {
+      width: 0px;
+    }
+  }
+}
+
+@media (max-width: 700px){
+  .faq-section {
+    height: 90%;
+  }
+
+ .list {
+   width: 250px;
+   right: 15%;
+   top: 190px;
+   
+   
+   .list-description--selected {
+     width: 250px;
+   }
+ }
+
+}
+
+@media (max-width: 500px) {
+  
+  .faq-section {
+    background: 
+    url(../images/bg-pattern-desktop.svg) top center fixed,
+    url(../images/illustration-woman-online-desktop.svg) top center fixed,
+    white;
+    background-repeat:  no-repeat, no-repeat;
+    background-size: 200px;
+    background-position-y: 30px;
+  }
+}
+@media (max-width: 380px) {
+  .list {
+    right: 5%;
+  }
+}
+@media (max-width: 320px) {
+  .faq-section{
+    background-size: 100px;
+  }
+  .list {
+     width: 200px;
+     right: 10%;
+     top: 140px;
+
+  }
+}
