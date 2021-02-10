@@ -62,3 +62,12 @@
 
   }
 }
+
+@media (max-width: 320px) {
+  .list {
+    top: 190px;
+    .list-description--selected {
+      width: 150px;
+    }
+  }
+}

@@ -4,7 +4,7 @@
 
 * { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 12px; }
 
-body { width: 100vw; height: 100vh; background: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7)); background: linear-gradient(#af67e9, #6565e7); }
+body { width: 100vw; height: 100vh; background: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7)); background: linear-gradient(#af67e9, #6565e7); font-family: 'Kumbh Sans'; }
 
 .container { width: 100%; height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
@@ -12,17 +12,17 @@ body { width: 100vw; height: 100vh; background: -webkit-gradient(linear, left to
 
 .faq-section { background: url(../images/bg-pattern-desktop.svg) left center fixed, url(../images/illustration-woman-online-desktop.svg) left center fixed; background-repeat: no-repeat, no-repeat; background-size: 600px, 600px; }
 
-.list { width: 400px; height: 300px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: left; -ms-flex-align: left; align-items: left; -ms-flex-pack: distribute; justify-content: space-around; position: relative; right: 50px; top: 130px; cursor: pointer; }
+.list { width: 400px; height: 300px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: left; -ms-flex-align: left; align-items: left; -ms-flex-pack: distribute; justify-content: space-around; position: relative; right: 50px; top: 135px; cursor: pointer; }
 
-.list h1 { font-size: 28px; }
+.list h1 { font-size: 28px; position: relative; bottom: 20px; }
 
-.list .list-word { margin: 10px 0px; color: gray; border-bottom: 1px solid black; margin-bottom: 30px; padding-bottom: 15px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.list .list-word { margin: 10px 0px; color: #787887; border-bottom: 1px solid #e7e7e9; margin-bottom: 30px; padding-bottom: 15px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
 .list .list-description { display: none; margin: 10px 0; }
 
-.list .list-word--selected { margin: 10px 0px; color: black; font-weight: 700; }
+.list .list-word--selected { margin: 10px 0px; color: #4a4b5e; font-weight: 700; }
 
-.list .list-description--selected { position: relative; width: 350px; margin-left: 10px; margin-top: 10px; text-align: justify; display: block; }
+.list .list-description--selected { position: relative; width: 350px; margin-left: 10px; margin-top: 10px; text-align: justify; color: #787887; display: block; }
 
 .faq-section { width: 80%; height: 75%; background-color: white; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; border-radius: 15px; }
 
@@ -45,4 +45,7 @@ body { width: 100vw; height: 100vh; background: -webkit-gradient(linear, left to
 
 @media (max-width: 320px) { .faq-section { background-size: 100px; }
   .list { width: 200px; right: 10%; top: 140px; } }
+
+@media (max-width: 320px) { .list { top: 190px; }
+  .list .list-description--selected { width: 150px; } }
 /*# sourceMappingURL=main.css.map */
