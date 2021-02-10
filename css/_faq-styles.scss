@@ -1,7 +1,13 @@
 .faq-section {
-  background: url(../images/bg-pattern-desktop.svg) left center fixed;
-  background-repeat: no-repeat;
-  background-size: 600px;
+  background: 
+    url(../images/bg-pattern-desktop.svg) left center fixed,
+    url(../images/illustration-woman-online-desktop.svg) left center fixed;
+  background-repeat:  no-repeat, no-repeat;
+  background-size: 600px, 600px;
+  
+
+ 
+  
 }
 
 .list {
@@ -26,7 +32,7 @@
     color: gray;
 
     border-bottom: 1px solid black;
-    border-bottom-right-radius: 15px;
+   
     
     margin-bottom: 30px;
     padding-bottom: 15px;
