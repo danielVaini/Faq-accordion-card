@@ -22,7 +22,7 @@ body { width: 100vw; height: 100vh; background: -webkit-gradient(linear, left to
 
 .list .list-word--selected { margin: 10px 0px; color: #4a4b5e; font-weight: 700; }
 
-.list .list-description--selected { position: relative; width: 350px; margin-left: 10px; margin-top: 10px; text-align: justify; color: #787887; display: block; }
+.list .list-description--selected { position: relative; width: 350px; margin-left: 10px; margin-top: 10px; text-align: justify; color: #787887; display: block; font-weight: 400; }
 
 .faq-section { width: 80%; height: 75%; background-color: white; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; border-radius: 15px; }
 
